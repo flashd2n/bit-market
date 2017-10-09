@@ -2,7 +2,7 @@ using System.Data.Entity.Migrations;
 
 namespace Flash.BitMarket.Data.Migrations
 {
-    internal sealed class Configuration : DbMigrationsConfiguration<MainDbContext>
+    public sealed class Configuration : DbMigrationsConfiguration<MainDbContext>
     {
         public Configuration()
         {
