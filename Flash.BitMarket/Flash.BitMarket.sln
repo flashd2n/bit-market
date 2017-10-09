@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{9BC59CD1-A418-4AE0-A075-83B415CD4078}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flash.BitMarket.Web", "Flash.BitMarket.Web\Flash.BitMarket.Web.csproj", "{A780212D-5091-4B56-80BC-05CBB1CF450D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{7F1FCA64-F951-43E5-BB65-5C79DDA9ABD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flash.BitMarket.Data", "Flash.BitMarket.Data\Flash.BitMarket.Data.csproj", "{65F65997-9EA6-4FFE-A2FA-613D02B443BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flash.BitMarket.Models", "Flash.BitMarket.Models\Flash.BitMarket.Models.csproj", "{E4DE7272-9B0E-4C18-9E38-6A92D30A6F2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{E4FE39F7-AD65-418E-9CC7-7A1FD33F4640}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flash.BitMarket.Services", "Flash.BitMarket.Services\Flash.BitMarket.Services.csproj", "{B6DF3376-BACC-432F-AE28-7D2D6BE84AED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A780212D-5091-4B56-80BC-05CBB1CF450D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A780212D-5091-4B56-80BC-05CBB1CF450D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A780212D-5091-4B56-80BC-05CBB1CF450D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A780212D-5091-4B56-80BC-05CBB1CF450D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65F65997-9EA6-4FFE-A2FA-613D02B443BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65F65997-9EA6-4FFE-A2FA-613D02B443BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65F65997-9EA6-4FFE-A2FA-613D02B443BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65F65997-9EA6-4FFE-A2FA-613D02B443BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4DE7272-9B0E-4C18-9E38-6A92D30A6F2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4DE7272-9B0E-4C18-9E38-6A92D30A6F2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4DE7272-9B0E-4C18-9E38-6A92D30A6F2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4DE7272-9B0E-4C18-9E38-6A92D30A6F2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6DF3376-BACC-432F-AE28-7D2D6BE84AED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6DF3376-BACC-432F-AE28-7D2D6BE84AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6DF3376-BACC-432F-AE28-7D2D6BE84AED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6DF3376-BACC-432F-AE28-7D2D6BE84AED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A780212D-5091-4B56-80BC-05CBB1CF450D} = {9BC59CD1-A418-4AE0-A075-83B415CD4078}
+		{65F65997-9EA6-4FFE-A2FA-613D02B443BE} = {7F1FCA64-F951-43E5-BB65-5C79DDA9ABD3}
+		{E4DE7272-9B0E-4C18-9E38-6A92D30A6F2E} = {7F1FCA64-F951-43E5-BB65-5C79DDA9ABD3}
+		{B6DF3376-BACC-432F-AE28-7D2D6BE84AED} = {E4FE39F7-AD65-418E-9CC7-7A1FD33F4640}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF28D635-684B-4D29-919B-44B4783BC383}
+	EndGlobalSection
+EndGlobal
