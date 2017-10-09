@@ -21,6 +21,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D3482C04
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flash.BitMarket.Tests", "Flash.BitMarket.Tests\Flash.BitMarket.Tests.csproj", "{BFDA20A5-3B72-4DC0-A26E-CC5DDB3A76E5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{603C13AD-9A35-4E98-AE78-FF49C41E4918}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flash.BitMarket.Interfaces.Data", "Flash.BitMarket.Interfaces.Data\Flash.BitMarket.Interfaces.Data.csproj", "{BE180665-A894-4520-AB7F-7A0EB0FEA368}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +51,10 @@ Global
 		{BFDA20A5-3B72-4DC0-A26E-CC5DDB3A76E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFDA20A5-3B72-4DC0-A26E-CC5DDB3A76E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFDA20A5-3B72-4DC0-A26E-CC5DDB3A76E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE180665-A894-4520-AB7F-7A0EB0FEA368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE180665-A894-4520-AB7F-7A0EB0FEA368}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE180665-A894-4520-AB7F-7A0EB0FEA368}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE180665-A894-4520-AB7F-7A0EB0FEA368}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +65,7 @@ Global
 		{E4DE7272-9B0E-4C18-9E38-6A92D30A6F2E} = {7F1FCA64-F951-43E5-BB65-5C79DDA9ABD3}
 		{B6DF3376-BACC-432F-AE28-7D2D6BE84AED} = {E4FE39F7-AD65-418E-9CC7-7A1FD33F4640}
 		{BFDA20A5-3B72-4DC0-A26E-CC5DDB3A76E5} = {D3482C04-1FB7-4D86-A393-5E61447B07E8}
+		{BE180665-A894-4520-AB7F-7A0EB0FEA368} = {603C13AD-9A35-4E98-AE78-FF49C41E4918}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AF28D635-684B-4D29-919B-44B4783BC383}
