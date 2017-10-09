@@ -1,15 +1,12 @@
-﻿using System;
-using System.Globalization;
-using System.Linq;
-using System.Security.Claims;
+﻿using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using Flash.BitMarket.Web.Models;
 using Flash.BitMarket.Models;
+using Flash.BitMarket.Web.Models.Account;
 
 namespace Flash.BitMarket.Web.Controllers
 {

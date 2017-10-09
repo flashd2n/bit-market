@@ -7,6 +7,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Flash.BitMarket.Web.Models;
+using Flash.BitMarket.Web.Models.Manage;
 
 namespace Flash.BitMarket.Web.Controllers
 {
