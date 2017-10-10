@@ -6,6 +6,7 @@ using Flash.BitMarket.Data.Migrations;
 using Flash.BitMarket.Data;
 using Flash.BitMarket.Web.App_Start;
 using System.Reflection;
+using Flash.BitMarket.Services.Price_Quotes;
 
 namespace Flash.BitMarket.Web
 {
@@ -22,6 +23,9 @@ namespace Flash.BitMarket.Web
 
             var mapper = new AutoMapperConfig();
             mapper.Execute(Assembly.GetExecutingAssembly());
+
+            var quoteService = new PriceQuoteService();
+            quoteService.StartService();
         }
     }
 }

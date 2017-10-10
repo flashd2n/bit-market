@@ -58,6 +58,14 @@
     <Compile Include="Migrations\201710091245158_Initial.Designer.cs">
       <DependentUpon>201710091245158_Initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201710091905357_Teesting.cs" />
+    <Compile Include="Migrations\201710091905357_Teesting.Designer.cs">
+      <DependentUpon>201710091905357_Teesting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710091923560_Teesting2.cs" />
+    <Compile Include="Migrations\201710091923560_Teesting2.Designer.cs">
+      <DependentUpon>201710091923560_Teesting2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -78,6 +86,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201710091245158_Initial.resx">
       <DependentUpon>201710091245158_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710091905357_Teesting.resx">
+      <DependentUpon>201710091905357_Teesting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710091923560_Teesting2.resx">
+      <DependentUpon>201710091923560_Teesting2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

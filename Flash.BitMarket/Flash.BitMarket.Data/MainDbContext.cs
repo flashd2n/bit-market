@@ -20,9 +20,11 @@ namespace Flash.BitMarket.Data
             return new MainDbContext();
         }
 
+        public IDbSet<QuoteTest> Quotes { get; set; }
+
         public override int SaveChanges()
         {
-            this.ApplyAuditInfo();
+            //this.ApplyAuditInfo();
             return base.SaveChanges();
         }
 

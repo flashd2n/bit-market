@@ -7,7 +7,7 @@
     <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
     <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
 </div>
-
+<h1>@ViewBag.TestMe</h1>
 <div class="row">
     <div class="col-md-4">
         <h2>Getting started</h2>
@@ -29,3 +29,28 @@
         <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
     </div>
 </div>
+
+@section scripts{
+    <script src="~/Scripts/jquery.signalR-2.2.2.js"></script>
+    <script src="~/SignalR/hubs"></script>
+    <script type="text/javascript">
+
+        var ticker = $.connection.quoteTickerMainHub;
+
+        function init() {
+            ticker.server.getAllStocks().done(function (stocks) {
+                console.log(stocks);
+            });
+        }
+
+        ticker.client.updateStockPrice = function (stock) {
+            console.log('UPDATE');
+            console.log(stock)
+        }
+
+        $.connection.hub.start().done(init);   
+
+    </script>
+}
+
+<div></div>
